@@ -27,6 +27,7 @@
   - mvc
   - mvvm
 - Jetpack
+- Handler
 
 ### 3. Kotlin
 
@@ -45,6 +46,7 @@
 
 - Day01 50%
 - Day02 25%
-- Day 03 摸鱼
-- Day 04 出去耍
+- Day03 摸鱼
+- Day04 出去耍
+- Day05 
 
