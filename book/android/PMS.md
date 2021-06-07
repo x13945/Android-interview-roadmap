@@ -26,6 +26,17 @@
 
 ### Android6 及以上
 
+#### 权限校验
+
+1. ContextWrapper.checkSelfPermission()检测当前用户的权限。最终走到ActivityManagerService的checkPermission
+2. AMS然后调用到PMS的checkPermission
+    1. PMS获取Package信息，进而获得PermissionState
+    2. 通过PermissionState得到权限状态
+
+#### 权限申请
+
+1. Activity的requestPermission
+
 ## 原理
 
 #### 安装包校验
@@ -44,3 +55,4 @@
 
 - [Android apk文件结构及其安装,校验流程_般若程序蝉(prajna.top)的专栏-CSDN博客](https://blog.csdn.net/kartorz/article/details/89337530)
 - [Android之PMS流程分析_calm1516的专栏-CSDN博客](https://blog.csdn.net/calm1516/article/details/114170934)
+- [android动态权限的源码解析_秋风扫得落叶归的博客-CSDN博客](https://blog.csdn.net/weixin_40273792/article/details/103064085)
