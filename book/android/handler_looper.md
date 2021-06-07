@@ -1,15 +1,10 @@
-## 目标
+# Handler-Looper
 
-- Android 4个番茄
-- 算法 4个番茄
+## 简介
 
-## 进度
+作为Android架构中的消息体系。驱动了Android上层的几乎所有多线程场景。个人理解，Android的Handler/Looper机制，就是一个生产者/消费者模型。其中Looper所在线程是唯一的消费者，其他地方通过Handler生产消息。
 
-### Android 6个番茄
-
-#### Handler-Looper
-
-作为Android架构中的消息体系。驱动了Android上层的几乎所有多线程场景。
+## 概念
 
 - Handler
 
@@ -28,7 +23,7 @@
     - `Looper`取消息 `next`
 
         如果队列头的消息还没到触发时间，则会通过Poll休眠当前线程，让出CPU资源。
-        
+
     - 线程安全 是由`synchronized`来锁的代码块
 
 - Looper
@@ -76,11 +71,4 @@
 
 ###### 3. 原理
 
-在`next`中取不到消息的时候，会依次只想`IdleHandler`，然后基于其重写的`queueIdle`，来判断是否移除掉。
-
-### 算法 4个番茄
-
-- 队列
-    - 数组队列 大小敏感
-    - 链表队列 大小不敏感，无限长度
-    - 循环队列
+在`next`中取不到消息的时候，会依次执行`IdleHandler`，然后基于其重写的`queueIdle`，来判断是否移除掉。
