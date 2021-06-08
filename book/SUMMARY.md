@@ -4,10 +4,13 @@
 * [通用知识](./general/README.md)
     * [网络](./general/network.md)
         * [TCP/UDP](./general/tcp_udp.md)
+* Kotlin
+    * [init代码块](./init.md)
 * [Java](./java/README.md)
     * [泛型](./java/泛型.md)
     * [多线程](./multi_thread.md)
         * [锁](./java/lock.md)
+        * [CAS](./java/cas.md)
     * 内存优化
         * [MAT](./java/mat.md)
 * [Linux](./linux/README.md)
