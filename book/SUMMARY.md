@@ -11,6 +11,7 @@
     * [多线程](./multi_thread.md)
         * [锁](./java/lock.md)
         * [CAS](./java/cas.md)
+        * [AQS](./java/aqs.md)
     * 内存优化
         * [MAT](./java/mat.md)
 * [Linux](./linux/README.md)
