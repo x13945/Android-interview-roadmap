@@ -7,7 +7,7 @@
 * [Java](./java/README.md)
     * [泛型](./java/泛型.md)
     * [多线程](./multi_thread.md)
-        * 锁
+        * [锁](./java/lock.md)
     * 内存优化
         * [MAT](./java/mat.md)
 * [Linux](./linux/README.md)
