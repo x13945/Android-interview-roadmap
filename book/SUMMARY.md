@@ -17,6 +17,8 @@
     * [IO](./java/io.md
     * [)
 * [Linux](./linux/README.md)
+    * 常用工具
+        * [代码统计工具-wc](./linux/wc.md)
     * [SELinux](./linux/SELinux.md)
 * [Android](./android/README.md)
     * 源码解析
