@@ -14,13 +14,14 @@
         * [AQS](./java/aqs.md)
     * 内存优化
         * [MAT](./java/mat.md)
-    * [IO](./java/io.md
-    * [)
+    * [IO](./java/io.md)
 * [Linux](./linux/README.md)
     * 常用工具
         * [代码统计工具-wc](./linux/wc.md)
     * [SELinux](./linux/SELinux.md)
 * [Android](./android/README.md)
+    * 四大组件
+        * [Activity](./android/activity.md)
     * 源码解析
         * [SP](./android/SharedPreferences.md)
         * [PMS](./android/PMS.md)
