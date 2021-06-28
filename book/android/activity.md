@@ -2,6 +2,8 @@
 
 ## 启动模式
 
+![启动模式](./activity_launch_mode.png)
+
 - standard 在task上创建新的实例
 - singleTop 检查task顶是否是目标Activity
     - 是 复用，并调用onNewIntent
