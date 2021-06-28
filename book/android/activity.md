@@ -12,3 +12,7 @@
     - 有 复用，并调用onNewIntent
     - 否 创建新实例
 - singleInstance 在独立的task中，保持唯一
+
+## 参考
+
+- [Android——你所忽略的launchMode之singleTask与taskAffinity - 简书](https://www.jianshu.com/p/0b908b0624e4)
