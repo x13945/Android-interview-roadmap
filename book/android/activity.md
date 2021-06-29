@@ -1,5 +1,8 @@
 # Activity
 
+[TOC]
+
+
 ## 启动模式
 
 ![启动模式](./activity_launch_mode.png)
@@ -12,6 +15,10 @@
     - 有 复用，并调用onNewIntent
     - 否 创建新实例
 - singleInstance 在独立的task中，保持唯一
+
+## 生命周期
+
+![生命周期](./activity lifecycle.jpg)
 
 ## 参考
 
