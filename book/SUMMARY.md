@@ -25,11 +25,17 @@
     * 源码解析
         * [SP](./android/SharedPreferences.md)
         * [PMS](./android/PMS.md)
-        * [Handler/Looper](./android/handler_looper.md)
+        * [Handler-Looper](./android/handler_looper.md)
+        * [事件分发](./android/touch_event.md)
     * 三方库
         * [ARouter](./android/ARouter.md)
+        * [LeakCanary](./android/LeakCanary.md)
     * 音视频
         * [FFMPEG](./android/ffmpeg.md)
+    * 开发技巧
+        * [热修复](./android/hotfix.md)
+        * [性能优化](./android/performance.md)
+    * [工具](./android/tools.md)
 
 - React-Native
     - [图片路径](./rn/image_path.md)
