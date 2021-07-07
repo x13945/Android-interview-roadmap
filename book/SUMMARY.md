@@ -16,6 +16,7 @@
     * 内存优化
         * [MAT](./java/mat.md)
     * [IO](./java/io.md)
+* [Gradle](./gradle/README.md)
 * [Linux](./linux/README.md)
     * 常用工具
         * [代码统计工具-wc](./linux/wc.md)
