@@ -7,6 +7,7 @@
 * Kotlin
     * [init代码块](./kotlin/init.md)
     * [协程](./kotlin/coroutines.md)
+    * [Flow](./kotlin/flow.md)
 * [Java](./java/README.md)
     * [泛型](./java/泛型.md)
     * [多线程](./multi_thread.md)
