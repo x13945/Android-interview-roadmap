@@ -8,6 +8,7 @@
     * [init代码块](./kotlin/init.md)
     * [协程](./kotlin/coroutines.md)
     * [Flow](./kotlin/flow.md)
+    * [Sealed](./kotlin/sealed.md)
 * [Java](./java/README.md)
     * [泛型](./java/泛型.md)
     * [多线程](./multi_thread.md)
@@ -32,11 +33,13 @@
         * [事件分发](./android/touch_event.md)
         * [View绘制](./android/view_render.md)
         * [Binder](./android/binder.md)
+        * [KeyEvent](./android/keyevent.md)
     * 三方库
         * [ARouter](./android/ARouter.md)
         * [LeakCanary](./android/LeakCanary.md)
     * 音视频
         * [FFMPEG](./android/ffmpeg.md)
+        * [MediaCodec](./android/mediacodec.md)
     * 开发技巧
         * [插件话](./android/plugin_ops.md)
         * [热修复](./android/hotfix.md)
