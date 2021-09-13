@@ -35,6 +35,7 @@
         * [View绘制](./android/view_render.md)
         * [Binder](./android/binder.md)
         * [KeyEvent](./android/keyevent.md)
+        * [ViewModel](./android/viewmodel.md)
     * 三方库
         * [ARouter](./android/ARouter.md)
         * [LeakCanary](./android/LeakCanary.md)
